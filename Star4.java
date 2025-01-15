@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Star4
 {
 	public static void main(String[] agrs)
@@ -12,4 +13,20 @@ class Star4
 			System.out.println("");
 		}
 	}
+=======
+class Star4
+{
+	public static void main(String[] agrs)
+	{
+		int i,j;
+		for (i=1; i<=5; i++)
+		{
+			for(j=1; j<=i; j++)
+			{
+				System.out.print(i);
+			}
+			System.out.println("");
+		}
+	}
+>>>>>>> origin/main
 }
